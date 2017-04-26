@@ -1,0 +1,184 @@
+nav {
+  margin-top: 20px;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+div#navbar {
+  margin-top: 13px;  
+}
+
+#navbar ul.color li a {
+  color: gray;
+}
+
+.pad {
+  padding-left: 40px !important;
+} 
+
+.navbar-nav.nav-pills li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul.nav.navbar-nav.nav-pills.pad {
+  margin-top: 10px;
+}
+
+nav.navbar {
+  box-shadow: 0 8px 6px -4px rgba(202, 200, 200, 0.82);
+  padding-bottom: 35px;
+}
+
+ul.nav.navbar-nav.top.color li {
+  margin-right: 27px;
+}
+
+.icon-bar {
+  background-color: black;
+}
+
+button.navbar-toggle.collapsed {
+  margin-top: 20px;
+}
+
+.main-content {
+  position: relative;
+  top: 15px;
+}
+
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+
+.container.grid {
+  margin-top: 30px;
+}
+
+.grid h1 {
+  font-size: 54px;
+  font-weight: 200;
+}
+
+.back-arrow {
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 25px;
+}
+
+.row h1 {
+  margin-top: 10px;
+}
+
+p {
+  font-size: large;
+  margin-top: 30px;
+}
+
+p.last {
+  margin-bottom: 30px;
+}
+
+.row span {
+  color: #59b4da;
+  font-size: medium;
+}
+
+.article {
+  width: 350px;
+  height: 1090px;
+  background-color: #d7d5d5;
+}
+
+.article h2 {
+  color: #68c4e9;
+  margin-left: 60px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+figure {
+  padding: 30px;
+  font-size: large;
+}
+
+figcaption h4 {
+  font-weight: bold;
+}
+figure img {
+  width: 280px;
+  height: 220px;
+  background-color: gray;
+}
+
+figure.pad {
+  padding-top: 0px;
+}
+
+.btn {
+  float: right;
+  background-color: #59b4da;
+  width: 150px;
+}
+
+button span.glyphicon {
+  color: white;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  margin-top: 90px;
+  height: 160px;
+  background-color: #1b2429;
+}
+
+footer .row {
+  margin-top: 30px;
+}
+
+footer .row ul {
+  list-style: none;
+}
+
+footer .row ul li {
+  text-align: center;
+}
+
+footer .row ul li a {
+  color: #fdfdfd;
+}
+
+footer .row .brand li {
+  color: #30424b;
+}
+
+footer .row .brand li {
+  font-size: x-small;
+}
+/*media queries for specific items*/
+@media (max-width: 768px) {
+
+  nav.navbar {
+    padding-bottom: 15px;
+  }
+
+  .grid h1 {
+    font-size: 34px;
+  }
+
+  p.last {
+    margin-bottom: 50px;
+  }
+
+  .article {
+    margin-top: 60px;
+  }
+
+  footer {
+    height: 220px;
+  }
+}
